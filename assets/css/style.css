@@ -547,7 +547,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 /*--------------------------------------------------------------
-# Games Section
+# Games Section to be added on
 --------------------------------------------------------------*/
 #games {
   background: url("../img/hero-bg.jpg");
@@ -589,6 +589,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
   color: #fff;
 }
+
 #games .games-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
