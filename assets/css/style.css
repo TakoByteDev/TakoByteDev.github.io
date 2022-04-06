@@ -656,8 +656,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#about iframe {
+#about .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #29E4A0;
+}
 
+#about .about-btn:hover {
+  background: #29E4A0;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -674,7 +692,7 @@ h1, h2, h3, h4, h5, h6 {
 #gallery .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #29E4A0;
   opacity: 1;
   border: 1px solid #29E4A0;
 }
